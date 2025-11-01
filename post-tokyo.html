@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>探索东京的街头巷尾 - 背包客地图</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>背包客地图</h1>
+        <p>一个关于城市漫步的旅行博客</p>
+    </header>
+
+    <main>
+        <article class="post-full">
+            <a href="index.html" class="back-to-home">&larr; 返回主页</a>
+            <h1>探索东京的街头巷尾</h1>
+            <p class="post-meta">2023年10月26日 | 日本, 东京</p>
+            <img src="images/tokyo.jpg" alt="东京夜晚的街道" class="post-full-image">
+            <div class="post-full-content">
+                <p>这次我深入探索了新宿和涩谷的繁华街道，也找到了几家隐藏在小巷里的美味拉面店。东京的夜晚充满了活力，霓虹灯闪烁，人群熙熙攘攘，仿佛永远不会停歇。</p>
+                <p><strong>第一天：涩谷十字路口与忠犬八公像</strong></p>
+                <p>涩谷的十字路口是世界上最繁忙的路口之一。当绿灯亮起，成千上万的人从四面八方涌来，场面非常壮观。在这里，你可以感受到东京的脉搏。别忘了去看看忠犬八公的铜像，那是忠诚与等待的象征。</p>
+                <p><strong>第二天：新宿御苑与美食探索</strong></p>
+                <p>与新宿的喧嚣形成鲜明对比的是新宿御苑的宁静。这是一个美丽的日式庭园，四季都有不同的景色。晚上，我们在“思出横丁”（回忆小巷）品尝了地道的日式烧鸟，狭窄的巷子里充满了食物的香气和人们的欢笑声。</p>
+                <p>总的来说，东京是一座充满矛盾与魅力的城市，既有尖端的科技，也保留了传统的文化。每一次探索都有新的发现。</p>
+            </div>
+        </article>
+
+        <!-- 评论区 -->
+        <section class="comment-section">
+            <h2>发表评论</h2>
+            <form id="comment-form">
+                <div class="form-group">
+                    <label for="comment-name">你的名字:</label>
+                    <input type="text" id="comment-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="comment-text">评论内容:</label>
+                    <textarea id="comment-text" rows="4" required></textarea>
+                </div>
+                <button type="submit">提交评论</button>
+            </form>
+
+            <div class="comments-list-container">
+                <h2>评论区</h2>
+                <div id="comments-list">
+                    <!-- JavaScript会在这里添加新的评论 -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 [你的名字]. 保留所有权利.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

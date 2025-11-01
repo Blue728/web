@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>背包客地图 - 我的旅行博客</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>背包客地图</h1>
+        <p>一个关于城市漫步的旅行博客</p>
+    </header>
+
+    <main>
+        <div class="map-container">
+            <h2>我的旅行足迹</h2>
+            <div id="map"></div>
+        </div>
+        <div class="posts-container">
+            <!-- 文章卡片 1 -->
+            <article class="post-card">
+                <img src="images/tokyo.jpg" alt="东京夜晚的街道">
+                <div class="post-content">
+                    <h2>探索东京的街头巷尾</h2>
+                    <p class="post-meta">2023年10月26日 | 日本, 东京</p>
+                    <p class="post-excerpt">
+                        这次我深入探索了新宿和涩谷的繁华街道，也找到了几家隐藏在小巷里的美味拉面店...
+                    </p>
+                    <!-- 修改这里的链接 -->
+                    <a href="post-tokyo.html" class="read-more-btn">阅读全文</a>
+                </div>
+            </article>
+
+            <!-- 文章卡片 2 -->
+            <article class="post-card">
+                <img src="images/paris.jpg" alt="巴黎埃菲尔铁塔">
+                <div class="post-content">
+                    <h2>巴黎的浪漫与艺术之旅</h2>
+                    <p class="post-meta">2023年9月15日 | 法国, 巴黎</p>
+                    <p class="post-excerpt">
+                        漫步在塞纳河畔，参观卢浮宫的艺术珍品，感受这座城市的独特魅力。这里有一些给初次访问者的建议...
+                    </p>
+                    <!-- 修改这里的链接 -->
+                    <a href="post-paris.html" class="read-more-btn">阅读全文</a>
+                </div>
+            </article>
+
+            <!-- 文章卡片 3 -->
+            <article class="post-card">
+                <img src="images/kyoto.jpg" alt="京都的寺庙">
+                <div class="post-content">
+                    <h2>京都的秋日红枫</h2>
+                    <p class="post-meta">2023年8月05日 | 日本, 京都</p>
+                    <p class="post-excerpt">
+                        秋天是访问京都的最佳季节。金阁寺的倒影和岚山的竹林，每一处都美得像一幅画...
+                    </p>
+                    <a href="post-kyoto.html" class="read-more-btn">阅读全文</a>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Zihan Song. 保留所有权利.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

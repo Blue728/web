@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 注意：标题已修改 -->
+    <title>京都的秋日红枫 - 背包客地图</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>背包客地图</h1>
+        <p>一个关于城市漫步的旅行博客</p>
+    </header>
+
+    <main>
+        <article class="post-full">
+            <a href="index.html" class="back-to-home">&larr; 返回主页</a>
+            <!-- 文章内容已替换为京都 -->
+            <h1>京都的秋日红枫</h1>
+            <p class="post-meta">2023年8月05日 | 日本, 京都</p>
+            <!-- 图片路径已修改 -->
+            <img src="images/kyoto.jpg" alt="京都的寺庙" class="post-full-image">
+            <div class="post-full-content">
+                <p>秋天是访问京都的最佳季节。金阁寺的倒影和岚山的竹林，每一处都美得像一幅画。这座古都的魅力在于它将自然与历史完美地融合在了一起。</p>
+                <p><strong>第一站：清水寺与二年坂</strong></p>
+                <p>清水寺的悬空舞台是京都的象征之一，从这里可以俯瞰整个城市。从清水寺出来，沿着二年坂和三年坂的小路漫步，两旁是古色古香的木制町屋，售卖着各种纪念品和当地小吃，仿佛穿越回了江户时代。</p>
+                <p><strong>第二站：岚山竹林与渡月桥</strong></p>
+                <p>岚山的竹林小径是京都最著名的景点之一。走在参天的竹林中，阳光透过竹叶洒下斑驳的光影，能让人瞬间心平气和。附近的渡月桥也是一个观赏风景的好地方，尤其是在樱花季和枫叶季。</p>
+                <p>京都是一个需要放慢脚步慢慢品味的城市，它的宁静与古朴会让你忘却烦恼。</p>
+            </div>
+        </article>
+
+        <!-- 评论区 (这部分和东京页面完全一样) -->
+        <section class="comment-section">
+            <h2>发表评论</h2>
+            <form id="comment-form">
+                <div class="form-group">
+                    <label for="comment-name">你的名字:</label>
+                    <input type="text" id="comment-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="comment-text">评论内容:</label>
+                    <textarea id="comment-text" rows="4" required></textarea>
+                </div>
+                <button type="submit">提交评论</button>
+            </form>
+
+            <div class="comments-list-container">
+                <h2>评论区</h2>
+                <div id="comments-list">
+                    <!-- JavaScript会在这里添加新的评论 -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 [你的名字]. 保留所有权利.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

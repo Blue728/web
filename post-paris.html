@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 注意：标题已修改 -->
+    <title>巴黎的浪漫与艺术之旅 - 背包客地图</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>背包客地图</h1>
+        <p>一个关于城市漫步的旅行博客</p>
+    </header>
+
+    <main>
+        <article class="post-full">
+            <a href="index.html" class="back-to-home">&larr; 返回主页</a>
+            <!-- 文章内容已替换为巴黎 -->
+            <h1>巴黎的浪漫与艺术之旅</h1>
+            <p class="post-meta">2023年9月15日 | 法国, 巴黎</p>
+            <!-- 图片路径已修改 -->
+            <img src="images/paris.jpg" alt="巴黎埃菲尔铁塔" class="post-full-image">
+            <div class="post-full-content">
+                <p>漫步在塞纳河畔，参观卢浮宫的艺术珍品，感受这座城市的独特魅力。这里有一些给初次访问者的建议。</p>
+                <p><strong>第一站：埃菲尔铁塔与战神广场</strong></p>
+                <p>无论是白天还是夜晚，埃菲尔铁塔都是巴黎的绝对地标。建议提前在网上预订门票以避免排长队。塔下的战神广场是一片巨大的草坪，非常适合野餐和放松，享受巴黎的悠闲时光。</p>
+                <p><strong>第二站：卢浮宫的艺术殿堂</strong></p>
+                <p>卢浮宫是世界上最大的艺术博物馆之一，收藏了无数珍品。即使你不是艺术爱好者，“卢浮三宝”——《蒙娜丽莎》、《米洛的维纳斯》和《萨莫色雷斯的胜利女神》也绝对值得一看。建议至少留出半天的时间来参观。</p>
+                <p>巴黎是一座需要用心去感受的城市，它的美隐藏在每一个街角、每一家咖啡馆和每一次不经意的回眸中。</p>
+            </div>
+        </article>
+
+        <!-- 评论区 (这部分和东京页面完全一样) -->
+        <section class="comment-section">
+            <h2>发表评论</h2>
+            <form id="comment-form">
+                <div class="form-group">
+                    <label for="comment-name">你的名字:</label>
+                    <input type="text" id="comment-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="comment-text">评论内容:</label>
+                    <textarea id="comment-text" rows="4" required></textarea>
+                </div>
+                <button type="submit">提交评论</button>
+            </form>
+
+            <div class="comments-list-container">
+                <h2>评论区</h2>
+                <div id="comments-list">
+                    <!-- JavaScript会在这里添加新的评论 -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 [你的名字]. 保留所有权利.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
